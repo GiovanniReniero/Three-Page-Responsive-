@@ -1,0 +1,43 @@
+.container{
+  border: 1px solid coral;
+  padding: 4px;
+  /* display: inline; */
+}
+
+.container p{
+  display: inline;
+  color: blueviolet;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 8px;
+}
+
+.container nav{
+  display: inline;
+}
+
+.container ul{
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  top: 8px;
+  text-decoration: none;
+  float: right;
+  padding-right: 1em;
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+li a:hover{
+  color: green;
+}
+li a:active{
+  color: red;
+}

@@ -1,6 +1,12 @@
 @import url("components/navibars.css");
+@import url("components/showcases.css");
+@import url("components/buttons.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+  --primary-color:#047aed
+}
 
 *{
   padding: 0;

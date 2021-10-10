@@ -1,6 +1,7 @@
 
 .navibarWrapper{
   height: 70px;
+  background-color: var(--primary-color);
 }
 
 .navi_container{
@@ -8,7 +9,6 @@
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
-  background-color: var(--primary-color);
 }
 
 .flex{

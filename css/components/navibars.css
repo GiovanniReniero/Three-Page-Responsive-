@@ -1,41 +1,39 @@
+  .navibarWrapper{
+  height: 70px;
+  background-color: #047aed;
+}
+
 .container{
-  border: 1px solid coral;
-  padding: 4px;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
 }
 
-.container p{
-  display: inline;
-  color: blueviolet;
-  font-size: 22px;
-  font-weight: bold;
-  padding: 8px 8px;
+.flex{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.container nav{
+.container  h2{
+  color: white;
   display: inline;
 }
 
 .container ul{
-  float: right;
-}
-
-li {
-  display: inline;
-  list-style: none;
+  display: flex;
 }
 
 li a {
-  top: 8px;
-  text-decoration: none;
-  padding-right: 1em;
-  color: blueviolet;
-  font-weight: bold;
-  font-size: 18px;
-  padding-top: 4px;
+  color: white;
+  padding: 10px;
+  margin: 0 5px;
 }
 
 li a:hover{
-  color: green;
+  border-bottom: 2px solid #fff;
 }
 li a:active{
   color: red;

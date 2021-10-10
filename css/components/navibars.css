@@ -1,7 +1,6 @@
 .container{
   border: 1px solid coral;
   padding: 4px;
-  /* display: inline; */
 }
 
 .container p{
@@ -17,17 +16,17 @@
 }
 
 .container ul{
-  display: inline;
+  float: right;
 }
 
 li {
   display: inline;
+  list-style: none;
 }
 
 li a {
   top: 8px;
   text-decoration: none;
-  float: right;
   padding-right: 1em;
   color: blueviolet;
   font-weight: bold;

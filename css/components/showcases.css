@@ -1,7 +1,23 @@
 .showcaseWrapper{
   background-color: var(--primary-color);
   height: 400px;
+  position: relative;
 }
+
+/* .showcaseWrapper::before, */
+.showcaseWrapper::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    bottom: -80px;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+  }
 
 .showcase_container{
   height: 100%;
@@ -10,7 +26,6 @@
   overflow: auto;
   padding: 0 40px;
   color: white;
-  position: relative;
 }
 
 .showcase_container h1{
@@ -32,7 +47,7 @@
 }
 
 .card{
-  background-color: white;
+  background-color: #fff;
   border-radius: 8px;
   padding: 20px;
   margin: 10px;

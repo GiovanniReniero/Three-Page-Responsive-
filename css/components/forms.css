@@ -4,21 +4,22 @@
   height: 350px;
   width: 400px;
   padding: 40px; 
-  z-index: 100; !!!!!!!!!
+  z-index: 100;
 }
 
-
-.showcase-form form input{
-  /* position: relative; */
-  /* width: 100%; */
-  /* margin: 4px; */
+.form-control{
+  margin: 30px 0;
 }
 
-.showcase-form form input[placeholder] {
-  /* padding: 4px; */
+.form-control input[type="text"],
+.form-control input[type="email"]{
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+  border: 0;
+  border-bottom: 1px solid #b4becb;
 }
 
-.showcase-form form .btn {
-  width: 32%;
-  padding: 2px;
+.form-control input:focus {
+  outline: none;
 }

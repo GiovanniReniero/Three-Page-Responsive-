@@ -4,7 +4,7 @@
   position: relative;
 }
 
-/* .showcaseWrapper::before, */
+.showcaseWrapper::before,
 .showcaseWrapper::after {
     content: "";
     position: absolute;

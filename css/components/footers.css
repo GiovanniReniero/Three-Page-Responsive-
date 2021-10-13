@@ -1,0 +1,14 @@
+.footer_container{
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+
+footer .social a{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin: 0 10px;
+}

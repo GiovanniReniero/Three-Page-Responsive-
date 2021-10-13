@@ -1,0 +1,15 @@
+.cloudWrapper{
+}
+
+.cloudWrapper .grid{
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+}
+
+.cloudWrapper .grid img{
+  max-width: 400px;
+  margin: auto;
+}
+
+
+

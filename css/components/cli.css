@@ -7,7 +7,6 @@
   background-color: white;
 }
 
-
 .cliWrapper .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -16,7 +15,7 @@
 
 .cliWrapper .grid >*:first-child{
   grid-column: 1 / span 2;
-  grid-row: 1/ span 2 ;
+  grid-row: 1 / span 2 ;
 }
-
+ 
 

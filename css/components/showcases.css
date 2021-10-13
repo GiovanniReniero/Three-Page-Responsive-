@@ -36,16 +36,6 @@
   padding: 20px 0;
 }
 
-.grid{
-  overflow: visible;
-  display: grid;
-  grid-template-columns: 55% 45%;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
 .card{
   background-color: #fff;
   border-radius: 8px;

@@ -1,0 +1,27 @@
+.languages_container{
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.languages_container .card{
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+
+.languages_container .card h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+.languages_container .card:hover{
+  transform: translateY(-16px);
+}
+
+.languagesWrapper .flex{
+  flex-wrap: wrap;
+}

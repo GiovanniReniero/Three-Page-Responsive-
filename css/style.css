@@ -274,7 +274,7 @@ img{
   .showcase_container{
     border: 1px solid green;
   }
-
+  
   .grid,
   .grid-3,
   .cliWrapper .grid,
@@ -283,6 +283,11 @@ img{
   {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+  
+  .cliWrapper .grid >*:first-child{
+    grid-column: 1 ;
+    grid-row: 1 ;
   }
 
   .showcase-text{

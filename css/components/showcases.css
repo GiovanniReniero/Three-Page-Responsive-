@@ -6,24 +6,24 @@
 
 .showcaseWrapper::before,
 .showcaseWrapper::after {
-    content: "";
-    position: absolute;
-    height: 100px;
-    bottom: -80px;
-    right: 0;
-    left: 0;
-    background-color: #fff;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -80px;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
   }
 
 .showcase_container{
-  height: 100%;
+  height: 100%; /* 100% of it's content regardless of whether it overflows the mother div*/
   max-width: 1100px;
   margin: 0 auto;
-  overflow: auto;
+  overflow: visible; /* This is what you do if it overflows*/
   padding: 0 40px;
   color: white;
 }
@@ -42,7 +42,7 @@
   padding: 20px;
   margin: 10px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-   color: #333;
+  color: #333;
 }
 
 

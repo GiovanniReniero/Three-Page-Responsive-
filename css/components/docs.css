@@ -1,4 +1,22 @@
-.features-head img{
+.docs-head img{
   max-width: 200px;
   justify-self: flex-end;
+}
+
+.docs-main-container{
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+  color: var(--dark-color);
+}
+
+.card .docs-list li a {
+  color: var(--dark-color);
+}
+
+.card .docs-list li {
+  margin: 1rem;
+  
 }

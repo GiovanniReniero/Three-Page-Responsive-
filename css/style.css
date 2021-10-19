@@ -1,4 +1,4 @@
-@import url("components/media_queries.css");
+@import url("components/heads.css");
 @import url("components/footers.css");
 @import url("components/navibars.css");
 @import url("components/languages.css");
@@ -268,11 +268,11 @@ img{
 
   .showcaseWrapper{
     height: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .showcase_container{
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
   
   .grid,

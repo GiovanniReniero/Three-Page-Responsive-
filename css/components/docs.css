@@ -12,11 +12,29 @@
   color: var(--dark-color);
 }
 
-.card .docs-list li a {
+.card nav li a{
   color: var(--dark-color);
+  font-size: 16px;
+  }
+.card nav li a:hover {
+  /* border-bottom: 1px solid var(--primary-color); */
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .card .docs-list li {
-  margin: 1rem;
-  
+  /* margin: 1rem; */
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.docs-main h3 {
+  margin: 20px 0;  
+}
+
+.docs-main .grid{
+   grid-template-columns: 1fr 2fr;
+   align-items:flex-start;
 }

@@ -17,6 +17,8 @@
   --secondary-color:#1c3fa8;
   --dark-color:#002240;
   --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
 }
 
 *{
@@ -54,6 +56,13 @@ p{
 /* guarantees images are contained within their container */
 img{
   width: 100% 
+}
+
+code,
+pre{
+  background: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 /* Flex */
@@ -95,6 +104,34 @@ img{
 .xl{
   font-size: 4rem;
 }
+
+/* Text Colors */
+.text-primary{
+  color: var(--primary-color)
+}
+.text-secondary{
+  color: var(--secondary-color)
+}
+
+
+/* Alerts  */
+.alert{
+  background-color: var(--light-color);
+  padding:10px 20px;
+  margin: 16px 0;
+}
+.alert i{
+  margin-right: 10px;
+}
+.alert-success {
+   background-color: var(--success-color);
+   color: #fff;
+ }
+.alert-error {
+   background-color: var(--error-color);
+   color: #fff;
+ }
+
 
 /* Backgrounds  */
 .bg-primary, .btn-primary{
@@ -254,39 +291,47 @@ img{
 
 /* Media Queries  */
 
-@media(max-width: 1024px){
-  /* .showcaseWrapper .grid
-  {
-    grid-template-columns:repeat(2, 1fr);
-  }
-  
-  .showcase-text{
-    margin-top: 16px;
-  } */
-}
 
 /* Tablets and Under */
 @media(max-width: 768px){
 
   .showcaseWrapper{
     height: auto;
-    /* border: 1px solid red; */
-  }
-
-  .showcase_container{
-    /* border: 1px solid green; */
   }
   
   .grid,
   .grid-3,
   .cliWrapper .grid,
   .cloudWrapper .grid,
-  .showcaseWrapper .grid
+  .showcaseWrapper .grid,
+  .features-head .grid,
+  .features-main .grid-3,
+  .docs-head .grid,
+  .docs-main .grid
   {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
   
+  .docs-head img,
+  .features-head img, 
+  .features-subhead img 
+  {
+    justify-self: center;
+    max-width: 160px;
+  }
+
+  .features-head, .features-subhead {
+    text-align: center;
+  }
+
+  .features-main .grid-3>*:first-child,
+  .features-main .grid-3>*:nth-child(2)
+  {
+    grid-column: 1;
+  }
+  
+
   .cliWrapper .grid >*:first-child{
     grid-column: 1 ;
     grid-row: 1 ;
@@ -298,7 +343,6 @@ img{
   }
 
   .showcase-form {
-    /* position: relative; */
     top: 1rem;
     margin: auto;
     justify-self: center;

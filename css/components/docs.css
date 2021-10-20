@@ -17,7 +17,6 @@
   font-size: 16px;
   }
 .card nav li a:hover {
-  /* border-bottom: 1px solid var(--primary-color); */
   font-size: 18px;
   font-weight: bold;
 }
@@ -27,7 +26,6 @@
   padding-bottom: 6px;
   margin-bottom: 6px;
   border-bottom: 1px solid #ccc;
-
 }
 
 .docs-main h3 {

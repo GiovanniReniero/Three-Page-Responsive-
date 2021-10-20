@@ -204,7 +204,6 @@ pre{
 }
 
 
-
 .m-1{
   margin: 1rem;
 }
@@ -288,12 +287,7 @@ pre{
   padding: 4rem;
 }
 
-
-
-
 /* Media Queries  */
-
-
 /* Tablets and Under */
 @media(max-width: 768px){
 
@@ -348,7 +342,6 @@ pre{
     margin: auto;
     justify-self: center;
   }
-
 } 
 
 /* Mobile */
@@ -369,6 +362,5 @@ pre{
     padding: 10px;
     background-color:rgba(0, 0, 0, 0.1)
   }
-
   
 }

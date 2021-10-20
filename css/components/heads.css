@@ -52,3 +52,9 @@
   grid-column: 1 / span 2;
 }
 
+.header_container img{
+  animation: slideTop 1s ease-in forwards;
+}
+.header_blurb {
+  animation: slideBottom 1s ease-in forwards;
+}
